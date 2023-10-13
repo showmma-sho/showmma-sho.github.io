@@ -1,0 +1,42 @@
+/* Style the pop-up content */
+.popup-content {
+    background-color: white;
+    padding: 8rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px; /* Adjust the width to make the popup larger */
+}
+
+/* Style the buttons using Bootstrap classes */
+.popup-buttons button {
+    margin: 5px;
+}
+
+/* Add Bootstrap classes for button styling */
+.popup-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Style the semi-transparent overlay */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-button1 {
+    background-color: #3498db; /* Blue color */
+    color: white;
+}
+
+.custom-button2 {
+    background-color: #e74c3c; /* Red color */
+    color: white;
+}
